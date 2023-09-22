@@ -1,0 +1,658 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    min-width: 300px;
+    display: flex;
+    gap: 30px;
+    padding: 18px;
+}
+body{
+    background: #1E1E28;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.logo {
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.buy-naw button:hover{
+    background: #82b420;
+}
+.buy-naw button:active{
+    height: 45px;
+    width: 105px;
+}
+.buy-naw button{
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    background: #82B440;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.top{
+    width: 500px;
+}
+.imgdiv{
+    width: 100px;
+    height: 100px;
+    background: #252530;
+    margin: auto;
+    margin-top: 20px;
+}
+.imgdiv img{
+    width: 100%;
+    border-radius: 50%;
+}
+.navbar{
+    width: 450px;
+    height: 100%;
+    background: #252530;
+    overflow: hidden;
+}
+.imgdiv p{
+    box-shadow: 2px 2px 25px 2px #FFC107;
+    width: 20px;
+    height: 20px;
+    background: #FFC107;
+    border-radius: 50%;
+    position: relative;
+    top: -25px;
+    right: -70px;
+}
+.fonts{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+.til{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.til div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #252530;
+    margin: 20px;
+    border: 5px solid #FFC107 ;
+}
+.til .french{
+    border-top: 5px solid #252530 ;
+}
+.til .spansh{
+    border-top: 5px solid #252530 ;
+    border-right: 5px solid #252530 ;
+}
+hr{
+    width: 400px;
+    margin: auto;
+}
+.til div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+.till{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: white;
+     margin: 20px;
+     font-size: 20px;
+     gap: 90px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    gap: 20px;
+}
+.icons ion-icon{
+    transition: 0.5s;
+}
+.icons ion-icon:hover{
+    background: transparent;
+    overflow: hidden;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.fonts h1{
+    font-size: 20px;
+    color: #838386;
+    justify-content: center;
+    display: flex;
+} 
+.fonts h2{
+    font-size: 20px;
+    color: #838386;
+    justify-content: center;
+    display: flex;
+} 
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.name h1:hover{
+    color: #FFC107;
+}
+.name h1{
+    font-size: 20px;
+    color: #EFEDEA;
+    margin: 4px;
+}
+.buttondv{
+    padding: 20px 0;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-top{
+    width: 850px;
+    height: 300px;
+    background: #252530;
+    padding: 50px;
+    font-size: 10px;
+
+}
+.content-top h1{
+    color: white;
+}
+.content-top p{
+    font-size: 45px;
+    color: white;
+    padding: 10px;
+}
+.fonts2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 60px;
+}
+.fonts2 h1{
+    font-size: 15px;
+    color: white;
+}
+.fonts2 p{
+    color: #FFC107;
+    font-size: 30px;
+}
+.bott{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 15px;
+}
+.cards div{
+    padding: 20px;
+    width: 32%;
+    height: 250px;
+    background: #252530;
+    color: #717175;
+}
+.cardstop div{
+    padding: 20px;
+    width: 33%;
+    height: 250px;
+    background: #252530;
+    color: #717175;
+}
+.cardstop div h1{
+    color: #FFC107;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.cards div h1{
+    display: flex;
+    align-items: center;
+    color: #FFC107;
+    font-size: 20px;
+    padding: 30px 0;
+    transition: .2s;
+}
+.cardstop div h1{
+    display: flex;
+    align-items: center;
+    color: #FFC107;
+    font-size: 20px;
+    padding: 30px 0;
+    transition: .2s;
+}
+.cards div h1 ion-icon{
+    transition: .2s;
+}
+.cardstop div h1 ion-icon{
+    transition: .2s;
+}
+
+.cards div h1:hover{
+    text-shadow: 0 0 12px #FFC107;
+}
+.cards div h1:hover ion-icon{
+    margin-left: 10px;
+}
+.cardstop div h1:hover{
+    text-shadow: 0 0 12px #FFC107;
+}
+.cardstop div h1:hover ion-icon{
+    margin-left: 10px;
+}
+h2{
+    color: white;
+}
+.cardstop{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 15px;
+}
+.cards h2{
+    font-size: 21px;
+}
+.cardstop h2{
+    font-size: 21px;
+}
+.my{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.my2{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.card div{
+    width: 290px;
+    height: 390px;
+    background: #000;
+}
+.header1 {
+    width: 100%;
+    height: 100%;
+    background: #252530;
+}
+.containeraq {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider {
+     display: flex;
+     align-items: center;
+     width: 600px;
+     overflow-x: hidden;
+     justify-content: space-between;
+     user-select: none;
+     cursor: default;
+}
+.slider::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+.testimonal {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+}
+.twitter {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: #02b1b1;
+}
+.twitter i {
+     font-size: 20px;
+}
+.twitter small {
+     transform: translateY(-3px);
+}
+.user {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+}
+.img {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.user-text {
+  width: 300px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.slider-btn {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 13px;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+.slider_top{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+.content-top button{
+    width: 150px;
+    height: 30px;
+    background-color: #FFC107;
+    border: none;
+    font-size: 15px;
+}
+.icns{
+    background: #1F1F28;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: start;
+    width: 100px;
+    color: #FFC107;
+}
+.icns ion-icon{
+    transition: .2s;
+}
+.icns ion-icon:hover{
+    margin-top: 2px;
+}
+.buttonlinks{
+    width: 100%;
+    height: 132px;
+    display: flex;
+    justify-content: center; 
+    gap: 80px;
+}
+.buttonlinks img{
+    width: 130px;
+    transition: .2s;
+}
+.buttonlinks img:hover{
+    margin-top: 8px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #2C2C37;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+}
+.footer p:hover{
+    cursor: pointer;
+    color: #02b1b1;
+}
+.contenttopimg{
+    width: 300px;
+    position: relative;
+    left: 450px;
+    bottom: 290px;
+}
+.contenttopimg img{
+    width: 100%;
+}
+.languages{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.languages .html{
+    width: 100%;
+}
+.languages .html .htmlin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+.languages .html .htmlon{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    align-items: center
+}
+.languages .html .htmlon .in{
+    width: 290px;
+    height: 7px;
+    background: #FFC107;
+}
+.languages .html .htmlon .on{
+    width: 110px;
+    height: 7px;
+    background: #191923;
+}
+.languages .css{
+    width: 100%;
+}
+.languages .css .cssin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+.languages .css .csson{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    align-items: center
+}
+.languages .css .csson .in{
+    width: 320px;
+    height: 7px;
+    background: #FFC107;
+}
+.languages .css .csson .on{
+    width: 80px;
+    height: 7px;
+    background: #191923;
+}
+.languages .css .js{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.languages .css .js .in{
+    width: 250px;
+    height: 7px;
+    background: #FFC107
+}
+.languages .css .js .on{
+    width: 150px;
+    height: 7px;
+    background: #191923;
+}
+.languages .css .php{
+    padding: 0 20px;
+    display: flex;
+    align-items: center; 
+}
+.languages .css .php .in{
+    width: 200px;
+    height: 7px;
+    background: #FFC107
+}
+.languages .css .php .on{
+    width: 200px;
+    height: 7px;
+    background: #191923;
+}
+.hr1{
+    width: 410px;
+    margin-top: 30px;
+}
+.about{
+    width: 100%;
+}
+.about .about1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-size: 19px;
+    color: #78787C;
+    padding: 20px 0;
+}
+.about .about2{
+    color: #78787C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    font-size: 19px;
+    padding: 20px 0;
+}
+.about .about3{
+    width: 100%;
+    color: #78787C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    font-size: 19px;
+    padding: 20px 0;
+}
+.about .about4  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    color: #78787C;
+    font-size: 19px;
+    padding: 20px 0;
+}
+.about ion-icon{
+    color: #FFC107;
+    cursor: pointer;
+}
+.about .about1 p:hover{
+    text-shadow: 0 0 10px white;
+    color: white;
+}
+.about .about2 p:hover{
+    text-shadow: 0 0 10px white;
+    color: white;
+    cursor: pointer;
+}
+.about .about3 p:hover{
+    text-shadow: 0 0 10px white;
+    color: white;
+    cursor: pointer;
+}
+.about .about4 p:hover{
+    text-shadow: 0 0 10px white;
+    color: white;
+    cursor: pointer;
+}
+.about ion-icon:hover{
+    box-shadow: 0 0 10px white;
+    background: transparent;
+    color: white;
+}
+.fot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 40px;
+    gap: 10px;
+    font-size: 20px;
+    color: #78787C;
+    font-weight: 600;
+}
+.fot p{
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fot p:hover{
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
